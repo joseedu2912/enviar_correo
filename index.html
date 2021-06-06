@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>CORREO</title>
+</head>
+<body>
+
+	<form action="enviar.php" name="enviar" method="post">
+		<h2>Enviar un mensaje</h2>
+		<div class="info">
+			<label for="names"> Nombres *</label>
+			<input type="text" id="names" name="nombres" required>
+			<br>
+			<br>
+			<label for="email"> Correo de envio *</label>
+			<input type="email" id="email" name="correo" required>
+			<br>
+			<br>
+			<label for="mensaje"> Mensaje *</label>
+			<textarea id="mensaje" name="mensaje" required></textarea>
+			<br>
+			<br>
+			<input type="submit" value="Enviar mensaje" id="cta" >
+		</div>
+	</form>
+</body>
+</html>
