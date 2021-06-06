@@ -14,7 +14,5 @@ $envioMensaje .= "Mensaje: $mensaje";
 
 //enviar mensaje
 mail($destinatario, $asunto, $envioMensaje);
-
-echo "<script>alert('correo enviado exitosamente')</script>";
-echo "<script> setTimeout(\"localtion.href='index.html'\",1000</script>";
+header('Location: correcto.html');
 ?>
